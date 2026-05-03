@@ -346,7 +346,7 @@
       position: absolute;
       inset: 0;
       background:
-        url('https://raw.githubusercontent.com/nn191200/nn191200.github.io/main/Gemini_Generated_Image_qiftiaqiftiaqift.png')
+        url('Gemini_Generated_Image_qiftiaqiftiaqift.png')
         center/cover no-repeat;
       transform: scale(1.08);
       animation:
@@ -490,6 +490,7 @@
     .hero-btns {
       display: flex; gap: 1.2rem; justify-content: center; flex-wrap: wrap;
       opacity: 0; animation: fadeUp 1s 1.1s ease forwards;
+
     }
 
     .btn-primary {
@@ -1168,6 +1169,17 @@
       }
 
       .hero-layers { display: none; }
+      .hero { min-height: 80vh; }
+      .hero-content { padding: 1.5rem 1rem; }
+      .hero-title {
+        font-size: clamp(2.2rem, 7vw, 3.5rem);
+        letter-spacing: 0.06em;
+        white-space: normal;
+      }
+      .hero-tagline {
+        font-size: 1rem;
+        margin-bottom: 1.8rem;
+      }
       #special-badge { bottom: 1rem; right: 1rem; }
     }
 
@@ -1176,6 +1188,17 @@
       .gallery-grid .g-item:nth-child(1),
       .gallery-grid .g-item:nth-child(5) { grid-column: span 1; }
       .social-links { flex-direction: column; }
+
+      .hero-title {
+        font-size: clamp(1.8rem, 8vw, 3rem);
+        letter-spacing: 0.04em;
+        white-space: normal;
+      }
+      .hero-tagline {
+        font-size: 0.95rem;
+        margin-bottom: 1.4rem;
+      }
+      .hero-content { padding: 1.2rem 0.8rem; }
     }
 
     /* =============================================
@@ -1206,13 +1229,6 @@
   </div>
 
   <!-- ==================== TODAY'S SPECIAL BADGE ==================== -->
-  <div id="special-badge">
-    <div class="badge-label">⬡ Today's Special ⬡</div>
-    <div class="badge-item">
-      Nahari Kulcha
-      <span>Slow-cooked nihari — bestseller</span>
-    </div>
-  </div>
 
   <!-- ==================== NAVBAR ==================== -->
   <nav id="navbar">
@@ -1432,7 +1448,7 @@
       <!-- KFC Style Chicken -->
       <div class="menu-card reveal delay-9" data-cat="kebab">
         <div class="card-img-wrap">
-          <img src="https://raw.githubusercontent.com/nn191200/nn191200.github.io/main/kfc.png.png" alt="KFC Style Chicken" loading="lazy" />
+          <img src="kfc.png.png" alt="KFC Style Chicken" loading="lazy" />
           <span class="card-category">Kebab</span>
         </div>
         <div class="card-body">
@@ -1478,7 +1494,7 @@
         </div>
       </div>
       <div class="signature-image reveal delay-2">
-        <img src="https://raw.githubusercontent.com/nn191200/nn191200.github.io/main/last.png" alt="Nahari Kulcha" loading="lazy" />
+        <img src="last.png" alt="Nahari Kulcha" loading="lazy" />
       </div>
     </div>
   </section>
@@ -1510,7 +1526,7 @@
       </div>
 
       <div class="g-item">
-        <img src="https://raw.githubusercontent.com/nn191200/nn191200.github.io/main/kfc.png.png" alt="KFC Style Chicken" loading="lazy" />
+        <img src="kfc.png.png" alt="KFC Style Chicken" loading="lazy" />
         <div class="g-overlay"><span class="g-caption">KFC Style Chicken</span></div>
       </div>
 
